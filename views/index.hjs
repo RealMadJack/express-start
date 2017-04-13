@@ -7,5 +7,14 @@
   <body>
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
+    <nav>
+    	<ul>
+    		<li><a href="/">Home</a></li>
+    		<li><a href="/users">Users</a></li>
+    		<li><a href="/users/007">user007</a></li>
+    		<li><a href="/404">404</a></li>
+    	</ul>
+    </nav>
+    <p>{{ params }}</p>
   </body>
 </html>
